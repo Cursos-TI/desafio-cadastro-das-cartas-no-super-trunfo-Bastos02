@@ -61,16 +61,16 @@ int main() {
 //Titulo do programa
     printf("\n Cadastro das Cartas\n   super trunfo\n");
 
-//Informações da primeira carta 
+//Informações da segunda carta 
     printf("\n   Carta 02\n");
 
-//Informações do primeiro Estado
+//Informações do segundo Estado
     printf("Nome do Estado: ");
     scanf("%s", Estado2);
     printf("Código da Carta: ");
     scanf("%s", codigo2);
 
-//informações da primeira cidade
+//informações da segunda cidade
     printf("Nome da Cidade: ");
     scanf("%s", Cidade2);
     
