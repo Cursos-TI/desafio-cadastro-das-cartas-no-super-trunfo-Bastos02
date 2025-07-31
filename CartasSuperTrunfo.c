@@ -2,7 +2,7 @@
 
 int main() {
 
-    char cidade[50];
+    char Estado[50];
 
 
 
@@ -12,7 +12,7 @@ int main() {
 
     printf("\n   Carta 01\n");
     printf("Nome do Estado:\n");
-    scanf("%s", cidade);
+    scanf("%s", Estado);
 
 
 
