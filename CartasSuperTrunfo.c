@@ -5,10 +5,10 @@ int main() {
     //Variaveis da primeira carta 01
     char Estado[50];
     char Cidade[50];
-    int População;
-    double Área;
+    int Populacao;
+    double Area;
     float PIB;
-    int PontosTurísticos;
+    int PontosTuristicos;
     char codigo[50];
 
 //Titulo do programa
@@ -28,16 +28,27 @@ int main() {
     scanf("%s", Cidade);
     
     printf("População: ");
-    scanf("%d", &População);
+    scanf("%d", &Populacao);
 
     printf("Área: ");
-    scanf("%lf", &Área);
+    scanf("%lf", &Area);
 
     printf("PIB: ");
     scanf("%f", &PIB);
 
     printf("Número de Pontos turísticos: ");
-    scanf("%d", &PontosTurísticos);
+    scanf("%d", &PontosTuristicos);
+
+//carta apresentada
+    printf("\n   Carta Apresentada\n");
+    printf("CÓDIGO: %s\n", codigo);
+    printf("ESTADO: %s\n", Estado);
+    printf("CIDADE: %s\n", Cidade);
+    printf("POPULAÇÃO: %d\n", Populacao);
+    printf("ÁREA: %.2lf km²\n", Area);
+    printf("PIB: R$ %.2f bilhões\n", PIB);
+    printf("PONTOS TURÍSTICOS: %d\n", PontosTuristicos);
+
 
 
 return 0;
