@@ -7,6 +7,8 @@ int main() {
     char Cidade[50];
     int População;
     double Área;
+    float PIB;
+    int PontosTurísticos;
 
 //Titulo do programa
     printf("Cadastro das Cartas\n   super trunfo\n");
@@ -27,6 +29,12 @@ int main() {
 
     printf("Área: ");
     scanf("%lf", &Área);
+
+    printf("PIB: ");
+    scanf("%f", &PIB);
+
+    printf("Número de Pomtos turísticos: ");
+    scanf("%d", &PontosTurísticos);
 
 
 return 0;
