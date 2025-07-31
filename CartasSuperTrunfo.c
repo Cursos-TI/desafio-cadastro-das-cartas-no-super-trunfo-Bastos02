@@ -9,6 +9,7 @@ int main() {
     double Área;
     float PIB;
     int PontosTurísticos;
+    char codigo[50];
 
 //Titulo do programa
     printf("Cadastro das Cartas\n   super trunfo\n");
@@ -19,6 +20,8 @@ int main() {
 //Informações do primeiro Estado
     printf("Nome do Estado: ");
     scanf("%s", Estado);
+    printf("Código da Carta: ");
+    scanf("%s", codigo);
 
 //informações da primeira cidade
     printf("Nome da Cidade: ");
@@ -33,7 +36,7 @@ int main() {
     printf("PIB: ");
     scanf("%f", &PIB);
 
-    printf("Número de Pomtos turísticos: ");
+    printf("Número de Pontos turísticos: ");
     scanf("%d", &PontosTurísticos);
 
 
