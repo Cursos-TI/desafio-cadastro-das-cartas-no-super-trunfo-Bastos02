@@ -94,8 +94,8 @@ int main() {
     scanf("%d", &PontosTuristicos2);
 
     // Variáveis Densidade Populacional(DP), PIB per Capita (PIBpc) carta 2
-    float DP2 = Populacao / Area;
-    float PIBpc2 = PIB / (float)Populacao;
+    float DP2 = Populacao2 / Area2;
+    float PIBpc2 = PIB2 / (float)Populacao;
 
 //carta apresentada
     printf("\n   Carta Apresentada\n");
