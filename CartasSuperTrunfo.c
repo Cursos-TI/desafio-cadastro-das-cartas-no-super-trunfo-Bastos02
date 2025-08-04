@@ -2,7 +2,7 @@
 
 int main() {
 
-//Variaveis da primeira carta 01
+//Variaveis da primeira carta 01 
     char Estado[50];
     char Cidade[50];
     int Populacao;
@@ -10,6 +10,7 @@ int main() {
     float PIB;
     int PontosTuristicos;
     char codigo[50];
+
 
 //Titulo do programa
     printf("\nCadastro das Cartas\n   super trunfo\n");
@@ -38,6 +39,10 @@ int main() {
 
     printf("Número de Pontos turísticos: ");
     scanf("%d", &PontosTuristicos);
+
+// Variáveis Densidade Populacional(DP), PIB per Capita (PIBpc)
+    float DP = Populacao / Area;
+    float PIBpc = PIB / (float)Populacao;
 
 //carta apresentada
     printf("\n   Carta Apresentada\n");
