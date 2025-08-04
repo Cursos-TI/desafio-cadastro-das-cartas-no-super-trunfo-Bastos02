@@ -42,7 +42,7 @@ int main() {
 
 // Variáveis Densidade Populacional(DP), PIB per Capita (PIBpc)
     float DP = Populacao / Area;
-    float PIBpc = PIB / (float)Populacao;
+    float PIBpc = (PIB *1e9) / (float)Populacao;
 
 //carta apresentada
     printf("\n   Carta Apresentada\n");
@@ -95,7 +95,7 @@ int main() {
 
     // Variáveis Densidade Populacional(DP), PIB per Capita (PIBpc) carta 2
     float DP2 = Populacao2 / Area2;
-    float PIBpc2 = PIB2 / (float)Populacao2;
+    float PIBpc2 = (PIB2 * 1e9) / (float)Populacao2;
 
 //carta apresentada
     printf("\n   Carta Apresentada\n");
