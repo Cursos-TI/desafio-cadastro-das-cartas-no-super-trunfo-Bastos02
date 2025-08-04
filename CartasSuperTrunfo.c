@@ -53,6 +53,8 @@ int main() {
     printf("ÁREA: %.2lf km²\n", Area);
     printf("PIB: R$ %.2f bilhões\n", PIB);
     printf("PONTOS TURÍSTICOS: %d\n", PontosTuristicos);
+    printf("DENSIDADE POPULACIONAL: %.2f hab/km²", DP);
+    printf("PIB PER CAPITA: %.2f reais", PIBpc);
 
 //Variaveis da segunda carta 02
     char Estado2[50];
